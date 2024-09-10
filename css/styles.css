@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #0c2a34bd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+#nav-items {
+    display: flex;
+    gap: 15px;
+}
+
+.join-us {
+    color: black;
+    font-size: 15px;
+}
+
+.list-item {
+    list-style-type: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    background-image: url(../assets/images/pic2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+
+
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    background-color: #0c2a34bd;
+    padding: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.input-bar {
+    padding: 15px;
+    width: 60%;
+}
+
+.input-button {
+    background-color: #015838;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.main-section {
+    width: 100%;
+}
+
+.main-container {
+    /* padding:15%; */
+    width: 50%;
+    margin: auto;
+}
+
+.main-container h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5em;
+}
+
+.flex-container {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 3em;
+}
+
+.text-container {
+    width: 50%;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.text-container h2 {
+    margin-bottom: 0.7rem;
+}
+
+.text-container p {
+    line-height: 1;
+    margin-bottom: 0.7rem;
+    color: darkslategrey;
+}
+
+.text-container a {
+    color: #015838;
+}
+
+.home-item img {
+    width: 100%;
+
+}
+
+.flex-home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 26px;
+    grid-row-gap: 0px;
+    margin-bottom: 5em;
+}
+
+.home-item h3 {
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+}
+
+.home-item h4 {
+    margin-bottom: 0.4em;
+}
+
+.home-item p {
+    margin-bottom: 1em;
+}
+
+.home-item a {
+    color: #015838;
+    font-weight: bold;
+}
+
+.mortgage-form{
+    background-color:#0c2a34;
+    width:50%;
+    margin:auto;
+    height:50vh;
+    margin-bottom:3em;
+    padding:15px;
+}
+
+.mortgage-form h1, .mortgage-form p{
+    text-align: center;
+    margin-bottom:1.3em;
+}
+
+.mortgage-flex{
+    
+    margin:auto;
+    margin-top:3em;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    
+}
+
+.mortgage-input{
+    
+    width:40%;
+    height:50px;
+    
+}
+
+.mortgage-submit{
+    height:50px;
+    padding:12px;
+    background-color:#015838;
+    border:none;
+    font-weight:bold;
+}
+
+.mortgage-form h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5em;
+    color:white;
+}
+
+footer {
+    background-color: #015838;
+    height: 80vh;
+}
+
+.flex-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 26px;
+    grid-row-gap: 0px;
+    padding-top:2.5em;
+    width:50%;
+    margin:auto;
+    height:70%;
+}
+
+.foot-div-one{
+    border-right: black solid 2px;
+    font-size: 30px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5em;
+    padding-right:1em;
+}
+
+.hire-me{
+    margin-top:3em; 
+    padding:10px;
+    border:none;
+    background-color:#0c2a34;
+    height:50px;
+    width:80%;
+}
+
+.hire-me a{
+    text-decoration:none;
+    color:white;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.footer-link{
+    margin-top: 2.5rem;
+    
+    
+}
+
+.footer-link-list{
+    list-style: none;
+    line-height: 3.5em;
+   
+}
+
+.footer-link-list-item{
+    text-decoration: none;
+    color: white;    
+}
+
+.footer-bold{
+    font-weight:bold;
+}
